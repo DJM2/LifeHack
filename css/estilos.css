@@ -1,0 +1,23 @@
+.logo {
+    background-image: url('../img/logo-life-hack.png');
+    width: 250px;
+}
+
+#boton-life {
+    background: #1649a8;
+    border-radius: 7px;
+    color: #fff;
+    padding: 10px 15px 10px 15px;
+    font-size: 16px;
+    border: none;
+    width: 14%;
+}
+
+#boton-life:hover {
+    background: #fff;
+    color: #000;
+    border-style: double;
+    border-width: 1px;
+    border-color: #000;
+    font-weight: 600;
+}
