@@ -1,6 +1,25 @@
 .logo {
-    background-image: url('../img/logo-life-hack.png');
-    width: 250px;
+    width: 20%;
+    height: 69px;
+    background: url('../img/white-life-hack.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 770px) {
+    .logo {
+        width: 40%;
+        transition-duration: 2s;
+    }
+}
+
+.scroll-logo {
+    background: url('../img/logo-life-hack.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 190px;
+    height: 69px;
+    transition-duration: 2s;
 }
 
 #boton-life {
@@ -8,16 +27,30 @@
     border-radius: 7px;
     color: #fff;
     padding: 10px 15px 10px 15px;
-    font-size: 16px;
+    font-size: 13px;
     border: none;
     width: 14%;
+    text-transform: uppercase;
 }
 
 #boton-life:hover {
     background: #fff;
     color: #000;
-    border-style: double;
+    font-weight: 600;
+    transition-duration: 1s;
+}
+
+#boton-life2 {
+    background: #1649a8;
+    border-radius: 18px;
+    color: #fff;
+}
+
+#boton-life2:hover {
+    background: #fff;
+    color: #000;
+    border-style: solid;
     border-width: 1px;
     border-color: #000;
-    font-weight: 600;
+    transition-duration: 1s;
 }
